@@ -1,0 +1,22 @@
+message OuterThing {
+  a_u32: U32
+  a_u64: U64
+  an_i32: I32
+  an_i64: I64
+  an_f32: F32
+  an_f64: F64
+  a_bool: Bool
+  a_string: String
+  an_array: Array[U64]
+  an_array_of_arrays: Array[Array[U32]]
+  an_inner_thing: InnerThing
+}
+
+message InnerThing {
+  an_inner_array: Array[Item]
+  age: U64
+}
+
+message Item {
+  name: String
+}
