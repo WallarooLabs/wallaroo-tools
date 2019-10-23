@@ -2,7 +2,7 @@ import re
 
 FOUR_SPACES = '    '
 
-primitives = ['F32','F64','I32','I64','U32','U64','I32','I64','Bool']
+primitives = ['F32','F64','I16','I32','I64','U16','U32','U64','I32','I64','Bool']
 
 specs = {
 	'F64': ['f64_be'],
